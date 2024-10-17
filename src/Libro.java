@@ -15,6 +15,7 @@ public class Libro {
     }
 
     public void imprimir() {
+        System.out.println("-----------------------------------");
         System.out.println("El titulo es: "+this.titulo);
         System.out.println("El autor es: "+this.autor);
         System.out.println("La editorial es: "+this.editorial);

@@ -1,3 +1,15 @@
+import Movilidad.Auto;
+import Movilidad.Transporte;
+import Musica.Cancion;
+import Musica.Instrumento_musical;
+import Otros.Libro;
+import Otros.Materia;
+import Otros.Persona;
+import Otros.Zapato;
+import TV.Pelicula;
+import TV.Series;
+import TV.Videojuegos;
+
 // Deber clases y objetos
 public class Main {
     public static void main(String[] args) {
@@ -5,7 +17,7 @@ public class Main {
 
         Libro libro1 = new Libro("El resplandor", "Stephen King", "De bolsillo", 600);
         Libro libro2 = new Libro("Polvo y ceniza", "Eliecer Cardenas", "Antares", 232);
-        Libro libro3 = new Libro("El cuaderno de Maya", "Isabel Allende", "Casa Libro", 448);
+        Libro libro3 = new Libro("El cuaderno de Maya", "Isabel Allende", "Casa Otros.Libro", 448);
         Libro libro4 = new Libro("El Lobo Estepario", "Hermann Hesse", "Lejandria", 269);
         Libro libro5 = new Libro("El amor en los tiempos del cólera", "Gabriel García Márquez", "Vintage", 368);
         System.out.println("     LIBROS  ");
